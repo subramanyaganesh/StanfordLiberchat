@@ -128,7 +128,7 @@ const Nav = ({
         <div
           data-testid="nav"
           className={
-            'nav active max-w-[320px] flex-shrink-0 overflow-x-hidden bg-gray-50 md:max-w-[260px]'
+            'nav active max-w-[320px] flex-shrink-0 overflow-x-hidden bg-gray-50 dark:bg-surface-primary-alt md:max-w-[260px]'
           }
           style={{
             width: navVisible ? navWidth : '0px',

@@ -60,8 +60,8 @@ function SelectDropDownPop({
             <button
               data-testid="select-dropdown-button"
               className={cn(
-                'pointer-cursor relative flex flex-col rounded-md border border-black/10 bg-red-500 py-2 pl-3 pr-10 text-left focus:ring-0 focus:ring-offset-0 dark:border-gray-700 dark:bg-gray-800 sm:text-sm',
-                'hover:bg-red-600 radix-state-open:bg-red-600 dark:hover:bg-red-600 dark:radix-state-open:bg-gray-700',
+                'pointer-cursor relative flex flex-col rounded-md border border-black/10 bg-red-500 py-2 pl-3 pr-10 text-left focus:ring-0 focus:ring-offset-0 dark:border-gray-700 dark:bg-red-500 sm:text-sm',
+                'hover:bg-red-600 radix-state-open:bg-red-600 dark:hover:bg-red-600 dark:radix-state-open:bg-red-600',
               )}
               aria-label={`Select ${title}`}
               aria-haspopup="false"

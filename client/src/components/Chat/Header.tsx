@@ -33,7 +33,7 @@ export default function Header() {
           {<HeaderOptions interfaceConfig={interfaceConfig} />}
           {interfaceConfig.presets && <PresetsMenu />}
           <BookmarkMenu />
-          <AddMultiConvo className = 'bg-red-500 hover:bg-red-600 text-white'/>
+          <AddMultiConvo className = 'bg-red-500 dark:hover:bg-red-600 hover:bg-red-600 text-white'/>
           {isSmallScreen && (
             <ExportAndShareMenu
               isSharedButtonEnabled={startupConfig?.sharedLinksEnabled ?? false}

@@ -85,10 +85,10 @@ export default function Landing({ Header }: { Header?: ReactNode }) {
                   src="/assets/StanfordIcon.png"
                   className="h-auto w-[20vw] sm:w-[15vw] md:w-[10vw] lg:w-[8vw]"
                 />
-                <div className="font-bold mt-4">
+                <div className="font-bold mt-4 dark:text-white">
                   Stanford AI Playgrounds
                 </div>
-                <p className="mx-4 mb-4 px-6 text-xs dark:text-black md:px-4" style={{ lineHeight: '1.6' }}>
+                <p className="mx-4 mb-4 px-6 text-xs dark:text-white md:px-4" style={{ lineHeight: '1.6' }}>
                   {isAssistant
                     ? conversation?.greeting ?? localize('com_nav_welcome_assistant')
                     : conversation?.greeting ?? (

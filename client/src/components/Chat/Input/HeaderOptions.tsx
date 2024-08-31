@@ -88,7 +88,7 @@ export default function HeaderOptions({
                   className={cn(
                     cardStyle,
                     'z-50 flex h-[40px] min-w-4 flex-none items-center justify-center bg-red-500 px-3 focus:ring-0 focus:ring-offset-0',
-                    'hover:bg-red-600 radix-state-open:bg-red-600 dark:hover:bg-gray-700 dark:radix-state-open:bg-gray-700',
+                    'hover:bg-red-600 radix-state-open:bg-red-600 dark:bg-red-500 dark:hover:bg-red-600 dark:radix-state-open:bg-red-600',
                   )}
                   onClick={triggerAdvancedMode}
                   aria-label="Settings/parameters"
